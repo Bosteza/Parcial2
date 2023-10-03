@@ -1,3 +1,5 @@
+//Programa que verifica si es multiplo de 3 o no
+
 #include<stdio.h>
 
 int main(){
