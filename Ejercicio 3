@@ -1,3 +1,5 @@
+//Programa que crea una mitad de piramide de numeros
+
 #include<stdio.h>
 
 int main(){
