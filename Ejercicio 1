@@ -1,0 +1,22 @@
+// Programa que realiza operaciones alaeatorias 
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+
+int main (){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}
