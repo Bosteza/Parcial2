@@ -5,18 +5,54 @@
 
 int main (){
 
+srand(time(NULL));
+int r1, r2;
 
+while (r1!=5){
 
+ int r1=(rand()%5)+1;
 
+	if(r1==1){
 
+		int r2=(rand()%10)+1;
+		int r3=(rand()%10)+1;
+		int sum=r2+r3;
+		printf("\n%d+%d=%d\n",r2,r3,sum);
+		sum++;
+	}
+	else if (r1==2)
+	{
+		int r2=(rand()%10)+1;
+		int r3=(rand()%10)+1;
+		int res=r2-r3;
+		printf("\n%d-%d=%d\n",r2,r3,res);
+		res++;
+		
+	}
+	else if (r1==3)
+	{
+		int r2=(rand()%10)+1;
+		int r3=(rand()%10)+1;
+		int mult=r2*r3;
+		printf("\n%d*%d=%d\n",r2,r3,mult);
+		mult++;
 
-
-
-
-
-
-
-
-
+	}
+	else if (r1==4)
+	{
+		int r2=(rand()%10)+1;
+		int r3=(rand()%10)+1;
+		int div=r2/r3;
+		printf("\n%d/%d=%d\n",r2,r3,div);
+		div++;
+	}
+	else if (r1==5)
+	{
+		printf("\nTerminado\n");
+		break;
+	}
+	
+}		
+printf("\n");
   return 0;
 }
